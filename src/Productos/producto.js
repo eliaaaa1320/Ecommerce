@@ -23,14 +23,12 @@ function ProductoUnitario(props){
 }
 
 function Impresos(props){
-    let listaProductos = [{nombre: "Skull", precio: "15000", descripcion: "Ni sabíamos que estamos huecos por dentro, lo acabamos de descubrir.", img: "../04102023/src/Productos/PRODUCTO-2.png"},
-    {nombre: "Caldero", precio: "10000", descripcion: "Perfecto para preparar cualquier pócima o convertirlo en matero.", img: "../04102023/src/Productos/PRODUCTO-1.png"},
-    {nombre: "Box ?", precio: "20000", descripcion: "Mejor recolectar las monedas con mucho estilo, que no tener ni una.", img: "../04102023/src/Productos/PRODUCTO-3.png"}];
+    let listaProductos = [{nombre: "Skull", precio: "$15.000", descripcion: "Ni sabíamos que estamos huecos por dentro, lo acabamos de descubrir.", img: "../04102023/src/Productos/PRODUCTO-2.png"},
+    {nombre: "Caldero", precio: "$10.000", descripcion: "Perfecto para preparar cualquier pócima o convertirlo en matero.", img: "../04102023/src/Productos/PRODUCTO-1.png"},
+    {nombre: "Box ?", precio: "$20.000", descripcion: "Mejor recolectar las monedas con mucho estilo, que no tener ni una.", img: "../04102023/src/Productos/PRODUCTO-3.png"}];
 
     return (
         <div className="Lista">
-            <h2>¿Te vas a antojar?</h2>
-
             {
                 listaProductos.map((item)=>{
                     return <ProductoUnitario nombre={item.nombre} descripcion={item.descripcion} precio={item.precio} cambio={props.cambio}></ProductoUnitario>

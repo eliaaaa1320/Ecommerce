@@ -3,6 +3,7 @@ import Barranav from './BarraNav/barranav';
 import CarritoCompras from './Carrito/carro';
 import Impresos from './Productos/producto';
 import Banner1 from './Banner/banner1';
+import Baner2 from './Banner/banner2';
 import { useState } from "react";
 import Footer from './Footer/footer';
 
@@ -12,6 +13,7 @@ function App() {
     <div>
     <Barranav></Barranav>
     <Banner1></Banner1>
+    <Baner2></Baner2>
     <Impresos cambio={useItems}></Impresos>
     <CarritoCompras ProductoSeleccionado={items}></CarritoCompras>
     <Footer></Footer>

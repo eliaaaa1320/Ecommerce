@@ -5,6 +5,9 @@
 
 a {
     font-family: Pilcrow marca;
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 15px;
 }
 
 @font-face {
@@ -14,5 +17,6 @@ a {
 
 h2 {
     font-family: General titulo;
-    text-align-last: center;
+    text-align: center;
+    margin-top: 15px;
 }

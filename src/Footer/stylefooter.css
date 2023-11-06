@@ -1,0 +1,30 @@
+@font-face {
+    font-family: General texto;
+    src: url(GeneralSans-Light.otf);
+}
+
+p {
+    font-family: General texto;
+    text-align: left;
+}
+
+@font-face {
+    font-family: General mediano;
+    src: url(GeneralSans-Medium.otf);
+}
+
+h3 {
+    font-family: General mediano;
+    margin-left: 15px;
+    
+}
+
+h5 {
+    font-family: General mediano;
+    text-align: left;
+    margin-top: 10px;
+}
+
+a {
+    margin-top: 15px;
+}

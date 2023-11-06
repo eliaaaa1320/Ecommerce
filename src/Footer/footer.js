@@ -1,3 +1,5 @@
+import "./stylefooter.css";
+
 function Footer(){
     return (
         <footer class="bg-dark text-white mt-5">
@@ -22,7 +24,7 @@ function Footer(){
           </div>
         </div>
         <div class="text-center py-3">
-          <p>&copy; 2023 Lo quiero, lo imprimo - Todos los derechos reservados</p>
+          <h3>&copy; 2023 Lo quiero, lo imprimo - Todos los derechos reservados</h3>
         </div>
       </footer>
     );
