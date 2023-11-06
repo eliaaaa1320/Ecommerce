@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Pilcrow marca;
+    src: url(PilcrowRounded-Bold.otf);
+}
+
+a {
+    font-family: Pilcrow marca;
+}
+
+@font-face {
+    font-family: General titulo;
+    src: url(GeneralSans-Semibold.otf);
+}
+
+h2 {
+    font-family: General titulo;
+    text-align-last: center;
+}

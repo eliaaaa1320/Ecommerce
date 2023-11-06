@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './App.css';
+import Barranav from './BarraNav/barranav';
+import CarritoCompras from './Carrito/carro';
+import Impresos from './Productos/producto';
+import Banner1 from './Banner/banner1';
+import { useState } from "react";
 
 function App() {
+  const [items, useItems] = useState ([]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Barranav></Barranav>
+    <Banner1></Banner1>
+    <Impresos cambio={useItems}></Impresos>
+    <CarritoCompras ProductoSeleccionado={items}></CarritoCompras>
     </div>
   );
 }
